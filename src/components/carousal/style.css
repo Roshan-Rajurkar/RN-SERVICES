@@ -1,0 +1,28 @@
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .carousel-wrapper {
+    max-width: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .carousel-image.hidden {
+    opacity: 0;
+  }
+  
+  .carousel-image.visible {
+    opacity: 1;
+  }
+  
