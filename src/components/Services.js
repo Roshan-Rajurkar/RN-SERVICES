@@ -1,7 +1,7 @@
 import React from 'react';
 import img from '../images/pick-up.jpg';
 import img2 from '../images/middleman.jpg'
-import img3 from '../images/last-mile.jpg'
+import img3 from '../images/pick-up.jpg'
 
 const Services = () => {
 
